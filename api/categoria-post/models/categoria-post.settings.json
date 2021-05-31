@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categoria_posts",
+  "info": {
+    "name": "categoriaPost"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contenido": {
+      "type": "string"
+    }
+  }
+}

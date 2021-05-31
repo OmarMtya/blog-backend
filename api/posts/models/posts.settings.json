@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "name": "posts",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "contenido": {
+      "type": "text"
+    },
+    "autor": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "categoriapost": {
+      "model": "categoria-post"
+    }
+  }
+}
