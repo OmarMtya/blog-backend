@@ -19,4 +19,4 @@ RUN npm run build
 
 CMD [ "npm", "start" ]
 
-EXPOSE 1111
+EXPOSE 1337
