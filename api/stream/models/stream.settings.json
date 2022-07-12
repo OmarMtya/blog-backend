@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "streams",
+  "info": {
+    "name": "stream"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "server": {
+      "type": "string"
+    }
+  }
+}
